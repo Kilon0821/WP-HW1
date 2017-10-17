@@ -1,0 +1,68 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>register</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+	<p>賬號：
+    <label for="name"></label>
+	<input name="name" type="text" id="name" size="16" maxlength="50" placeholder="請輸入您的賬號" />
+	</p>
+	<p>密碼：
+    <label for="password"></label>
+    <input name="password" type="password" id="password" size="16" maxlength="10" />
+	</p>
+	
+	<p>E-Mail：<span id="sprytextfield1">
+	<label for="eMail"></label>
+	<input name="eMail" type="text" id="eMail" size="16" maxlength="50" placeholder="請輸入您的電子郵件"/>
+	</p>
+	
+	<p>生日：
+    <label for="birthday"></label>
+    <input name="birthday" type="date" id="birthday" size="16" maxlength="10" />
+	</p>
+	
+	<p>性別：
+    <input type="radio" name="edu" id="radio" value="male" checked="checked"/>
+    <label for="edu"></label>
+	男
+    <input type="radio" name="edu" id="radio" value="female" />
+    <label for="edu"></label>
+    女
+    <input type="radio" name="edu" id="radio" value="another" />
+    <label for="edu"></label>
+    其他
+	</p>
+	
+	<p>喜好：
+    <input name="ball" type="checkbox" id="ball" value="yes" />
+    <label for="ball"></label>
+	打球 
+	<input name="game" type="checkbox" id="game" value="yes" />
+    <label for="game"></label>
+	打電動 
+	<input name="shopping" type="checkbox" id="shopping" value="yes" />
+    <label for="shopping"></label>
+	購物
+	<input name="another" type="checkbox" id="another" value="yes" />
+    <label for="another"></label>
+	其他
+	</p>
+	
+	<p>年級：
+    <label for="prodlst"></label>
+    <select name="prodlst" id="prodlst">
+	<option selected="selected">大一</option>
+	<option>大二</option>
+    <option>大三</option>
+    <option>大四</option>
+	<option>其他</option>
+    </select>
+</form>
+	<input type="submit" name="button" id="button" value="送出" />
+    <input type="reset" name="reset" id="reset" value="重設" />
+</body>
+</html>
